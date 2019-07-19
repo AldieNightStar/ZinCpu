@@ -1,0 +1,8 @@
+ZIN-CHIP
+---
+	[b] - reader will read one byte
+	[bb] - reader will read two bytes
+	[bbbb] - reader will read four bytes
+
+MOV [reg], [num] --> 0x1 [b] [bb]
+MOVM [mem], [reg] --> 0x2 [bb] [b]
